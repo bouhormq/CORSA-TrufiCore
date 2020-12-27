@@ -104,7 +104,6 @@ class TrufiDrawerState extends State<TrufiDrawer> {
             localization.menuAbout(),
             AboutPage.route,
           ),
-          Divider(),
           // FIXME: For now we do not provide this option
           //_buildOfflineToggle(context),
           _buildLanguageDropdownButton(context),
