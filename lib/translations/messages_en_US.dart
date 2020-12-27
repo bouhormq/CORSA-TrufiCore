@@ -32,7 +32,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   static m5(duration, distance, location) => "Walk ${duration} (${distance}) to\n${location}";
 
-  static m6(url) => "Download Trufi App, the public transport app for Cochabamba, at ${url}";
+  static m6(url) => "Download Corsa, the public transport app for Tetouan, at ${url}";
 
   static m7(representatives) => "Representatives: ${representatives}";
 
@@ -46,7 +46,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
-    "aboutContent" : MessageLookupByLibrary.simpleMessage("We are a bolivian and international team of people that love and support public transport. We have developed this app to make it easy for people to use the transport system in Cochabamba and the surrounding area."),
+    "aboutContent" : MessageLookupByLibrary.simpleMessage("We are a bolivian and international team of people that love and support public transport. We have developed this app to make it easy for people to use the transport system in Tetouan and the surrounding area."),
     "aboutLicenses" : MessageLookupByLibrary.simpleMessage("Licenses"),
     "aboutOpenSource" : MessageLookupByLibrary.simpleMessage("This app is released as open source on GitHub. Feel free to contribute or bring it to your own city."),
     "alertLocationServicesDeniedMessage" : MessageLookupByLibrary.simpleMessage("Please make sure your device has GPS and the Location settings are activated."),
@@ -68,7 +68,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "commonOrigin" : MessageLookupByLibrary.simpleMessage("Origin"),
     "commonSave" : MessageLookupByLibrary.simpleMessage("Save"),
     "commonUnknownError" : MessageLookupByLibrary.simpleMessage("Unknown error"),
-    "description" : MessageLookupByLibrary.simpleMessage("The best way to travel with trufis, micros and busses through Cochabamba."),
+    "description" : MessageLookupByLibrary.simpleMessage("The best way to travel with trufis, micros and busses through Tetouan."),
     "donate" : MessageLookupByLibrary.simpleMessage("Donate"),
     "errorAmbiguousDestination" : MessageLookupByLibrary.simpleMessage("The trip planner is unsure of the location you want to go to. Please select from the following options, or be more specific."),
     "errorAmbiguousOrigin" : MessageLookupByLibrary.simpleMessage("The trip planner is unsure of the location you want to start from. Please select from the following options, or be more specific."),
@@ -135,13 +135,13 @@ class MessageLookup extends MessageLookupByLibrary {
     "searchTitleRecent" : MessageLookupByLibrary.simpleMessage("Recent"),
     "searchTitleResults" : MessageLookupByLibrary.simpleMessage("Search Results"),
     "shareAppText" : m6,
-    "tagline" : MessageLookupByLibrary.simpleMessage("Public transportation in Cochabamba"),
-    "teamContent" : MessageLookupByLibrary.simpleMessage("We are an international team called Trufi Association that has created this app with the help of many volunteers! Do you want to improve the Trufi App and be part of our team? Please contact us via:"),
+    "tagline" : MessageLookupByLibrary.simpleMessage("Public transportation in Tetouan"),
+    "teamContent" : MessageLookupByLibrary.simpleMessage("We are an international team called Trufi Association that has created this app with the help of many volunteers! Do you want to improve the Corsa and be part of our team? Please contact us via:"),
     "teamSectionRepresentatives" : m7,
     "teamSectionRoutes" : m8,
     "teamSectionTeam" : m9,
     "teamSectionTranslations" : m10,
-    "title" : MessageLookupByLibrary.simpleMessage("Trufi App"),
+    "title" : MessageLookupByLibrary.simpleMessage("Corsa"),
     "version" : m11
   };
 }

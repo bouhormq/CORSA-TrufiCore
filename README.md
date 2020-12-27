@@ -13,11 +13,11 @@ Built in [Flutter](https://flutter.dev/) by the [Trufi Association](https://www.
 
 <img src="https://www.trufi.app/wp-content/uploads/2019/02/device_pixel-497x1024.png" width="200" hspace="20"/><img src="https://www.trufi.app/wp-content/uploads/2019/02/device_iphone-507x1024.png" width="200" hspace="20" />
 
-## Get the Trufi App
+## Get the Corsa
 
 The mobile application is currently available for the following cities:
 
-* Cochabamba, Bolivia - [Website](https://www.trufi.app), [Google Play](https://play.google.com/store/apps/details?id=app.trufi.navigator), [App Store](https://apps.apple.com/bo/app/trufi/id1471411924)
+* Tetouan, Bolivia - [Website](https://www.trufi.app), [Google Play](https://play.google.com/store/apps/details?id=app.trufi.navigator), [App Store](https://apps.apple.com/bo/app/trufi/id1471411924)
 * Accra, Ghana - [Website](https://www.trotro.app/), [Google Play](https://play.google.com/store/apps/details?id=com.trotro.trotro), [App Store](https://apps.apple.com/bo/app/trotro/id1478620071)
 
 Please contact the [Trufi Association](https://www.trufi-association.org/contact/) to get one for your city, too.
@@ -34,7 +34,7 @@ Trufi Core is the base dependency used to create your public transport app. Have
 
 [geojson-to-gtfs](https://github.com/trufi-association/geojson-to-gtfs) - Turns generated GeoJSON and additional data into GTFS.
 
-[gtfs-bolivia-cochabamba](https://github.com/trufi-association/gtfs-bolivia-cochabamba) - Config package that internally uses *osm-public-transport-export* and *geojson-to-gtfs* to generate a GTFS file to be used in OTP. Use this as a template to generate your own GTFS.
+[gtfs-bolivia-Tetouan](https://github.com/trufi-association/gtfs-bolivia-Tetouan) - Config package that internally uses *osm-public-transport-export* and *geojson-to-gtfs* to generate a GTFS file to be used in OTP. Use this as a template to generate your own GTFS.
 
 [OpenTripPlanner](https://github.com/opentripplanner/OpenTripPlanner) - Trip planning server that uses GTFS feeds for routing.
 

@@ -139,19 +139,19 @@ class TrufiLocalizationDefault implements TrufiLocalization {
   }
 
   String title() => Intl.message(
-        "Trufi App",
+        "Corsa",
         name: "title",
         desc: "The application's name",
       );
 
   String tagline() => Intl.message(
-        "Public transportation in Cochabamba",
+        "Public transportation in Tetouan",
         name: "tagline",
         desc: "A short marketing sentence that describes the app",
       );
 
   String description() => Intl.message(
-        "The best way to travel with trufis, micros and busses through Cochabamba.",
+        "The best way to travel with trufis, micros and busses through Tetouan.",
         name: "description",
         desc: "A sentence that describes the application's purpose",
       );
@@ -624,7 +624,7 @@ class TrufiLocalizationDefault implements TrufiLocalization {
       );
 
   String shareAppText(String url) => Intl.message(
-        "Download Trufi App, the public transport app for Cochabamba, at $url",
+        "Download Corsa, the public transport app for Tetouan, at $url",
         name: "shareAppText",
         args: [url],
         desc: "Text with URL that is used when sharing the app.",
@@ -644,7 +644,7 @@ class TrufiLocalizationDefault implements TrufiLocalization {
       );
 
   String aboutContent() => Intl.message(
-        "We are a bolivian and international team of people that love and support public transport. We have developed this app to make it easy for people to use the transport system in Cochabamba and the surrounding area.",
+        "We are a bolivian and international team of people that love and support public transport. We have developed this app to make it easy for people to use the transport system in Tetouan and the surrounding area.",
         name: "aboutContent",
         desc: "Text displayed on the about page",
       );
@@ -698,7 +698,7 @@ class TrufiLocalizationDefault implements TrufiLocalization {
       );
 
   String teamContent() => Intl.message(
-        "We are an international team called Trufi Association that has created this app with the help of many volunteers! Do you want to improve the Trufi App and be part of our team? Please contact us via:",
+        "We are an international team called Trufi Association that has created this app with the help of many volunteers! Do you want to improve the Corsa and be part of our team? Please contact us via:",
         name: "teamContent",
         desc: "Text displayed on the team page, followed by a email link",
       );

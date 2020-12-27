@@ -44,7 +44,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
-    "aboutContent" : MessageLookupByLibrary.simpleMessage("Siamo un team boliviano e internazionale di persone che amano e supportano il trasporto pubblico. Abbiamo sviluppato questa app per semplificare l\'uso dei trasporti pubblici a Cochabamba e nelle aree circostanti."),
+    "aboutContent" : MessageLookupByLibrary.simpleMessage("Siamo un team boliviano e internazionale di persone che amano e supportano il trasporto pubblico. Abbiamo sviluppato questa app per semplificare l\'uso dei trasporti pubblici a Tetouan e nelle aree circostanti."),
     "aboutLicenses" : MessageLookupByLibrary.simpleMessage("Licenze"),
     "aboutOpenSource" : MessageLookupByLibrary.simpleMessage("This app is released as open source on GitHub. Feel free to contribute or bring it to your own city."),
     "alertLocationServicesDeniedMessage" : MessageLookupByLibrary.simpleMessage("Assicurati che il tuo device abbia un GPS e geolocalizzazione attivati."),
@@ -62,7 +62,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "commonOrigin" : MessageLookupByLibrary.simpleMessage("Partenza"),
     "commonSave" : MessageLookupByLibrary.simpleMessage("Salva"),
     "commonUnknownError" : MessageLookupByLibrary.simpleMessage("Errore sconosciuto"),
-    "description" : MessageLookupByLibrary.simpleMessage("Il miglior modo di viaggiare con trufis, micros e autobus attraverso Cochabamba"),
+    "description" : MessageLookupByLibrary.simpleMessage("Il miglior modo di viaggiare con trufis, micros e autobus attraverso Tetouan"),
     "errorAmbiguousDestination" : MessageLookupByLibrary.simpleMessage("L\'organizzatore di viaggio è indeciso sul luogo di arrivo. Per piacere scegli tra le opzioni seguenti o sii più specifico."),
     "errorAmbiguousOrigin" : MessageLookupByLibrary.simpleMessage("L\'organizzatore di viaggio è indeciso sul luogo di partenza. Per piacere scegli tra le opzioni seguenti o sii più specifico."),
     "errorAmbiguousOriginDestination" : MessageLookupByLibrary.simpleMessage("Partenza e destinazione sono ambigue. Per piacere scegli tra le opzioni seguenti o sii più specifico."),
@@ -121,7 +121,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "searchTitlePlaces" : MessageLookupByLibrary.simpleMessage("Luoghi"),
     "searchTitleRecent" : MessageLookupByLibrary.simpleMessage("Recenti"),
     "searchTitleResults" : MessageLookupByLibrary.simpleMessage("Cerca Risultati"),
-    "tagline" : MessageLookupByLibrary.simpleMessage("Trasporto pubblico a Cochabamba"),
+    "tagline" : MessageLookupByLibrary.simpleMessage("Trasporto pubblico a Tetouan"),
     "teamContent" : MessageLookupByLibrary.simpleMessage("Siamo un team internazionale chiamato Trufi Association che ha creato questa app con l\'aiuto di molti volontari! Vuoi migliorare l\'app Trufi ed essere parte del nostro team? Vi preghiamo di contattarci tramite:"),
     "teamSectionRepresentatives" : m7,
     "teamSectionRoutes" : m8,

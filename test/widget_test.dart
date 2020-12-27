@@ -32,7 +32,7 @@ void main() {
   final localName = "en";
   final localization = TrufiLocalizationDefault();
 
-  testWidgets('Trufi App - Home Widget', (WidgetTester tester) async {
+  testWidgets('Corsa - Home Widget', (WidgetTester tester) async {
     await tester.pumpWidget(
       StatefulBuilder(
         builder: (
