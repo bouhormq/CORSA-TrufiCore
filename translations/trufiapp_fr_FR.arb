@@ -5,7 +5,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "tagline": "Transports en commun à Tetouan",
+  "tagline": "Transports publics à Tetouan",
   "@tagline": {
     "description": "A short marketing sentence that describes the app",
     "type": "text",
