@@ -102,7 +102,7 @@ class AboutPageState extends State<AboutPage> {
                     style: linkStyle,
                   ),
                   onTap: () {
-                    launch('https://github.com/trufi-association/trufi-app');
+                    launch('https://github.com/bouhormq/CORSA');
                   },
                 ),
               ),

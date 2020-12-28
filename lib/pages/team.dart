@@ -92,34 +92,6 @@ class TeamPageState extends State<TeamPage> {
                   ),
                 ),
               ),
-              Container(
-                padding: EdgeInsets.only(top: 16.0),
-                child: Text(
-                  localization.teamSectionRepresentatives(_representatives),
-                  style: theme.textTheme.body2,
-                ),
-              ),
-              Container(
-                padding: EdgeInsets.only(top: 16.0),
-                child: Text(
-                  localization.teamSectionTeam(_team),
-                  style: theme.textTheme.body2,
-                ),
-              ),
-              Container(
-                padding: EdgeInsets.only(top: 16.0),
-                child: Text(
-                  localization.teamSectionTranslations(_translations),
-                  style: theme.textTheme.body2,
-                ),
-              ),
-              Container(
-                padding: EdgeInsets.only(top: 16.0),
-                child: Text(
-                  localization.teamSectionRoutes(_routes, _osm),
-                  style: theme.textTheme.body2,
-                ),
-              ),
             ],
           ),
         )

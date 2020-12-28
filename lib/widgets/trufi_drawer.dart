@@ -95,11 +95,6 @@ class TrufiDrawerState extends State<TrufiDrawer> {
             FeedbackPage.route,
           ),
           _buildListItem(
-            Icons.people,
-            localization.menuTeam(),
-            TeamPage.route,
-          ),
-          _buildListItem(
             Icons.info,
             localization.menuAbout(),
             AboutPage.route,
@@ -107,15 +102,12 @@ class TrufiDrawerState extends State<TrufiDrawer> {
           // FIXME: For now we do not provide this option
           //_buildOfflineToggle(context),
           _buildLanguageDropdownButton(context),
-          _buildAppReviewButton(context),
-          _buildAppShareButton(context, cfg.url.share),
           if (!Platform.isIOS && cfg.url.donate != "")
             _buildWebLinkItem(
               Icons.monetization_on,
               localization.donate(),
               cfg.url.donate,
             ),
-          Divider(),
           if (cfg.url.website != "")
             _buildWebLinkItem(
               CustomIcons.trufi,

@@ -459,7 +459,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "aboutContent": "Siamo un team boliviano e internazionale di persone che amano e supportano il trasporto pubblico. Abbiamo sviluppato questa app per semplificare l'uso dei trasporti pubblici a Tetouan e nelle aree circostanti.",
+  "aboutContent": "Sono uno studente di informatica presso l'Università Politecnica della Catalogna che ha sviluppato con l'aiuto dell'Associazione Trufi questa applicazione per facilitare l'uso dei trasporti pubblici a Tetouan e nei suoi dintorni.",
   "@aboutContent": {
     "description": "Text displayed on the about page",
     "type": "text",

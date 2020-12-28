@@ -644,7 +644,7 @@ class TrufiLocalizationDefault implements TrufiLocalization {
       );
 
   String aboutContent() => Intl.message(
-        "We are a bolivian and international team of people that love and support public transport. We have developed this app to make it easy for people to use the transport system in Tetouan and the surrounding area.",
+        "I'm a Computer Science student from the Polytechnic University of Catalonia that has developed with the help of Trufi Association this app to make it easy for people to use the transport system in Tetouan and the surrounding area.",
         name: "aboutContent",
         desc: "Text displayed on the about page",
       );
@@ -698,7 +698,7 @@ class TrufiLocalizationDefault implements TrufiLocalization {
       );
 
   String teamContent() => Intl.message(
-        "We are an international team called Trufi Association that has created this app with the help of many volunteers! Do you want to improve the Corsa and be part of our team? Please contact us via:",
+        " Please contact us via:",
         name: "teamContent",
         desc: "Text displayed on the team page, followed by a email link",
       );

@@ -44,7 +44,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
-    "aboutContent" : MessageLookupByLibrary.simpleMessage("Nous sommes une équipe bolivienne et internationale de personnes qui aiment et soutiennent les transports en commun. Nous avons développé cette application pour faciliter l\'utilisation du système de transport en commun à Tetouan et dans les environs."),
+    "aboutContent" : MessageLookupByLibrary.simpleMessage("Je suis un étudiant d'Informatique de l'Université Polytechnique de Catalogne qui a développé avec l'aide de l'Association Trufi cette application pour faciliter l'utilisation des transports publics à Tétouan."),
     "aboutLicenses" : MessageLookupByLibrary.simpleMessage("Licences"),
     "aboutOpenSource" : MessageLookupByLibrary.simpleMessage("This app is released as open source on GitHub. Feel free to contribute or bring it to your own city."),
     "alertLocationServicesDeniedMessage" : MessageLookupByLibrary.simpleMessage("Assurez-vous que votre appareil dispose d\'un GPS et que les paramètres de localisation sont activés."),
