@@ -44,7 +44,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
-    "aboutContent" : MessageLookupByLibrary.simpleMessage("Je suis un étudiant d'Informatique de l'Université Polytechnique de Catalogne qui a développé avec l'aide de l'Association Trufi cette application pour faciliter l'utilisation des transports publics à Tétouan."),
+    "aboutContent" : MessageLookupByLibrary.simpleMessage("Salut! Je suis Salim Bouhorma Mouffak, un étudiant d'Informatique de l'Université Polytechnique de Catalogne qui a développé avec l'aide de l'Association Trufi cette application pour faciliter l'utilisation des transports publics à Tétouan."),
     "aboutLicenses" : MessageLookupByLibrary.simpleMessage("Licences"),
     "aboutOpenSource" : MessageLookupByLibrary.simpleMessage("This app is released as open source on GitHub. Feel free to contribute or bring it to your own city."),
     "alertLocationServicesDeniedMessage" : MessageLookupByLibrary.simpleMessage("Assurez-vous que votre appareil dispose d\'un GPS et que les paramètres de localisation sont activés."),
@@ -62,7 +62,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "commonOrigin" : MessageLookupByLibrary.simpleMessage("Origine"),
     "commonSave" : MessageLookupByLibrary.simpleMessage("Sauvegarder"),
     "commonUnknownError" : MessageLookupByLibrary.simpleMessage("Erreur inconnue"),
-    "description" : MessageLookupByLibrary.simpleMessage("La meilleure façon de se déplacer en trufis, micros et bus dans Tetouan."),
+    "description" : MessageLookupByLibrary.simpleMessage("La meilleure façon de se déplacer en bus par Tetouan."),
     "errorAmbiguousDestination" : MessageLookupByLibrary.simpleMessage("Le planificateur de trajet ne sait pas trop à quelle destination vous souhaitez aller. Veuillez choisir parmi les options suivantes ou être plus précis."),
     "errorAmbiguousOrigin" : MessageLookupByLibrary.simpleMessage("Le planificateur de trajet n\'est pas sûr du lieu de départ. Veuillez choisir parmis les options suivantes ou être plus précis."),
     "errorAmbiguousOriginDestination" : MessageLookupByLibrary.simpleMessage("L\'origine et la destination sont ambiguës. Veuillez choisir parmi les options suivantes ou être plus précis."),
@@ -121,7 +121,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "searchTitlePlaces" : MessageLookupByLibrary.simpleMessage("Endroits"),
     "searchTitleRecent" : MessageLookupByLibrary.simpleMessage("Récent"),
     "searchTitleResults" : MessageLookupByLibrary.simpleMessage("Résultats de la recherche"),
-    "tagline" : MessageLookupByLibrary.simpleMessage("Transports en commun à Tetouan"),
+    "tagline" : MessageLookupByLibrary.simpleMessage("Transports publics à Tetouan"),
     "teamContent" : MessageLookupByLibrary.simpleMessage("Nous sommes une équipe internationale appelée Trufi Association qui a créé cette application avec l\'aide de nombreux bénévoles! Voulez-vous améliorer l\'application Trufi et faire partie de notre équipe? Merci de nous contacter via:"),
     "teamSectionRepresentatives" : m7,
     "teamSectionRoutes" : m8,

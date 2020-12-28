@@ -13,7 +13,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "description": "The best way to travel with trufis, micros and busses through Tetouan.",
+  "description": "The best way to travel with busses through Tetouan.",
   "@description": {
     "description": "A sentence that describes the application's purpose",
     "type": "text",
@@ -483,7 +483,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "aboutContent": "I'm a Computer Science student from the Polytechnic University of Catalonia that has developed with the help of Trufi Association this app to make it easy for people to use the transport system in Tetouan and the surrounding area.",
+  "aboutContent": "Hi there! I'm Salim Bouhorma Mouffak, a Computer Science student from the Polytechnic University of Catalonia that has developed with the help of Trufi Association this app to make it easy for people to use the transport system in Tetouan and the surrounding area.",
   "@aboutContent": {
     "description": "Text displayed on the about page",
     "type": "text",

@@ -151,7 +151,7 @@ class TrufiLocalizationDefault implements TrufiLocalization {
       );
 
   String description() => Intl.message(
-        "The best way to travel with trufis, micros and busses through Tetouan.",
+        "The best way to travel with busses through Tetouan.",
         name: "description",
         desc: "A sentence that describes the application's purpose",
       );
@@ -644,7 +644,7 @@ class TrufiLocalizationDefault implements TrufiLocalization {
       );
 
   String aboutContent() => Intl.message(
-        "I'm a Computer Science student from the Polytechnic University of Catalonia that has developed with the help of Trufi Association this app to make it easy for people to use the transport system in Tetouan and the surrounding area.",
+        "Hi there! I'm Salim Bouhorma Mouffak, a Computer Science student from the Polytechnic University of Catalonia that has developed with the help of Trufi Association this app to make it easy for people to use the transport system in Tetouan and the surrounding area.",
         name: "aboutContent",
         desc: "Text displayed on the about page",
       );

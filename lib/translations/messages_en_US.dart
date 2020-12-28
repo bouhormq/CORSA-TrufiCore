@@ -46,7 +46,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
-    "aboutContent" : MessageLookupByLibrary.simpleMessage("I'm a Computer Science student from the Polytechnic University of Catalonia that has developed with the help of Trufi Association this app to make it easy for people to use the transport system in Tetouan and the surrounding area."),
+    "aboutContent" : MessageLookupByLibrary.simpleMessage("Hi there! I'm Salim Bouhorma Mouffak, a Computer Science student from the Polytechnic University of Catalonia that has developed with the help of Trufi Association this app to make it easy for people to use the transport system in Tetouan and the surrounding area."),
     "aboutLicenses" : MessageLookupByLibrary.simpleMessage("Licenses"),
     "aboutOpenSource" : MessageLookupByLibrary.simpleMessage("This app is released as open source on GitHub. Feel free to contribute or bring it to your own city."),
     "alertLocationServicesDeniedMessage" : MessageLookupByLibrary.simpleMessage("Please make sure your device has GPS and the Location settings are activated."),
@@ -68,7 +68,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "commonOrigin" : MessageLookupByLibrary.simpleMessage("Origin"),
     "commonSave" : MessageLookupByLibrary.simpleMessage("Save"),
     "commonUnknownError" : MessageLookupByLibrary.simpleMessage("Unknown error"),
-    "description" : MessageLookupByLibrary.simpleMessage("The best way to travel with trufis, micros and busses through Tetouan."),
+    "description" : MessageLookupByLibrary.simpleMessage("The best way to travel with busses through Tetouan."),
     "donate" : MessageLookupByLibrary.simpleMessage("Donate"),
     "errorAmbiguousDestination" : MessageLookupByLibrary.simpleMessage("The trip planner is unsure of the location you want to go to. Please select from the following options, or be more specific."),
     "errorAmbiguousOrigin" : MessageLookupByLibrary.simpleMessage("The trip planner is unsure of the location you want to start from. Please select from the following options, or be more specific."),

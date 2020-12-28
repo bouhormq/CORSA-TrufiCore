@@ -11,7 +11,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "description": "La meilleure façon de se déplacer en trufis, micros et bus dans Tetouan.",
+  "description": "La meilleure façon de se déplacer en bus par Tetouan.",
   "@description": {
     "description": "A sentence that describes the application's purpose",
     "type": "text",
@@ -459,7 +459,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "aboutContent": "Je suis un étudiant d'Informatique de l'Université Polytechnique de Catalogne qui a développé avec l'aide de l'Association Trufi cette application pour faciliter l'utilisation des transports publics à Tétouan.",
+  "aboutContent": "Salut! Je suis Salim Bouhorma Mouffak, un étudiant d'Informatique de l'Université Polytechnique de Catalogne qui a développé avec l'aide de l'Association Trufi cette application pour faciliter l'utilisation des transports publics à Tétouan.",
   "@aboutContent": {
     "description": "Text displayed on the about page",
     "type": "text",

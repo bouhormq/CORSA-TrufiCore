@@ -32,7 +32,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   static m5(duration, distance, location) => "Gehen Sie ${duration} (${distance}) bis ${location}";
 
-  static m6(url) => "Hol\' dir die Trufi, die App für den öffentlichen Nahverkehr in Tetouan, auf ${url}";
+  static m6(url) => "Hol\' dir die Corsa, die App für den öffentlichen Nahverkehr in Tetouan, auf ${url}";
 
   static m7(representatives) => "Vertreter: ${representatives}";
 
@@ -46,7 +46,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
-    "aboutContent" : MessageLookupByLibrary.simpleMessage("Ich bin ein Informatikstudent der Polytechnischen Universität von Katalonien, der mit Hilfe der Trufi Association diese App entwickelt hat, um den Menschen die Nutzung des Transportsystems in Tetouan und Umgebung zu erleichtern."),
+    "aboutContent" : MessageLookupByLibrary.simpleMessage("Hallo! Ich bin Salim Bouhorma Mouffak, ein Informatikstudent der Polytechnischen Universität von Katalonien, der mit Hilfe der Trufi Association diese App entwickelt hat, um den Menschen die Nutzung des Transportsystems in Tetouan und Umgebung zu erleichtern."),
     "aboutLicenses" : MessageLookupByLibrary.simpleMessage("Lizenzen"),
     "aboutOpenSource" : MessageLookupByLibrary.simpleMessage("Diese App ist Open Source und auf GitHub verfügbar. Zögere nicht, einen Beitrag zu leisten oder bringe sie in Deine Stadt!"),
     "alertLocationServicesDeniedMessage" : MessageLookupByLibrary.simpleMessage("Bitte vergewissere dich, dass du ein GPS Signal empfängst und die Ortungsdienste aktiviert sind."),
@@ -68,7 +68,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "commonOrigin" : MessageLookupByLibrary.simpleMessage("Startpunkt"),
     "commonSave" : MessageLookupByLibrary.simpleMessage("Speichern"),
     "commonUnknownError" : MessageLookupByLibrary.simpleMessage("Unbekannter Fehler"),
-    "description" : MessageLookupByLibrary.simpleMessage("Der beste Weg mit Trufis, Mikros und Bussen durch Tetouan zu reisen."),
+    "description" : MessageLookupByLibrary.simpleMessage("Der beste Weg mit Bussen durch Tetouan zu reisen."),
     "donate" : MessageLookupByLibrary.simpleMessage("Spenden"),
     "errorAmbiguousDestination" : MessageLookupByLibrary.simpleMessage("Der Reiseplaner weiß nicht genau, zu welchem Ort Sie fahren möchten. Bitte wählen Sie aus den folgenden Optionen eine aus oder geben Sie eine genauere Beschreibung an."),
     "errorAmbiguousOrigin" : MessageLookupByLibrary.simpleMessage("Der Reiseplaner weiß nicht genau, von welchem Ort aus Sie starten möchten. Bitte wählen Sie aus den folgenden Optionen eine aus oder geben Sie eine genauere Beschreibung an."),

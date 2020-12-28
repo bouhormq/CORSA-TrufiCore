@@ -44,7 +44,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
-    "aboutContent" : MessageLookupByLibrary.simpleMessage("Soy un estudiante de Informática de la Universidad Politécnica de Cataluña que ha desarrollado con la ayuda de la Asociación Trufi esta aplicación para facilitar a las personas el uso del transporte público en Tetuán y alrededores."),
+    "aboutContent" : MessageLookupByLibrary.simpleMessage("¡Hola! Soy Salim Bouhorma Mouffak, un estudiante de Informática de la Universidad Politécnica de Cataluña que ha desarrollado con la ayuda de la Asociación Trufi esta aplicación para facilitar a las personas el uso del transporte público en Tetuán y alrededores."),
     "aboutLicenses" : MessageLookupByLibrary.simpleMessage("Licencias"),
     "aboutOpenSource" : MessageLookupByLibrary.simpleMessage("This app is released as open source on GitHub. Feel free to contribute or bring it to your own city."),
     "alertLocationServicesDeniedMessage" : MessageLookupByLibrary.simpleMessage("Por favor, asegúrese de que el GPS y las configuraciones de ubicación esten activadas en su dispositivo."),
@@ -62,7 +62,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "commonOrigin" : MessageLookupByLibrary.simpleMessage("Origen"),
     "commonSave" : MessageLookupByLibrary.simpleMessage("Guardar"),
     "commonUnknownError" : MessageLookupByLibrary.simpleMessage("Error desconocido"),
-    "description" : MessageLookupByLibrary.simpleMessage("La mejor forma de viajar con trufis, micros y buses a través de Tetouan."),
+    "description" : MessageLookupByLibrary.simpleMessage("La mejor forma de viajar con buses a través de Tetouan."),
     "errorAmbiguousDestination" : MessageLookupByLibrary.simpleMessage("El planificador de rutas no está seguro de su destino. Por favor, seleccione una de las siguientes opciones o introduzca un destino más exacto."),
     "errorAmbiguousOrigin" : MessageLookupByLibrary.simpleMessage("El planificador de rutas no está seguro de su origen. Por favor, seleccione una de las siguientes opciones o introduzca un origen más exacto."),
     "errorAmbiguousOriginDestination" : MessageLookupByLibrary.simpleMessage("Origen y destino son ambiguos. Por favor, seleccione una de las siguientes opciones o introduzca un destino más exacto."),

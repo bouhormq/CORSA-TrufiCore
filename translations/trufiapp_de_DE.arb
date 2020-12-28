@@ -11,7 +11,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "description": "Der beste Weg mit Trufis, Mikros und Bussen durch Tetouan zu reisen.",
+  "description": "Der beste Weg mit Bussen durch Tetouan zu reisen.",
   "@description": {
     "description": "A sentence that describes the application's purpose",
     "type": "text",
@@ -453,7 +453,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "shareAppText": "Hol' dir die Trufi, die App für den öffentlichen Nahverkehr in Tetouan, auf {url}",
+  "shareAppText": "Hol' dir die Corsa, die App für den öffentlichen Nahverkehr in Tetouan, auf {url}",
   "@shareAppText": {
     "description": "Text with URL that is used when sharing the app.",
     "type": "text",
@@ -475,7 +475,7 @@
     "type": "text",
     "placeholders": {}
   },
-  "aboutContent": "Ich bin ein Informatikstudent der Polytechnischen Universität von Katalonien, der mit Hilfe der Trufi Association diese App entwickelt hat, um den Menschen die Nutzung des Transportsystems in Tetouan und Umgebung zu erleichtern.",
+  "aboutContent": "Hallo! Ich bin Salim Bouhorma Mouffak, ein Informatikstudent der Polytechnischen Universität von Katalonien, der mit Hilfe der Trufi Association diese App entwickelt hat, um den Menschen die Nutzung des Transportsystems in Tetouan und Umgebung zu erleichtern.",
   "@aboutContent": {
     "description": "Text displayed on the about page",
     "type": "text",
