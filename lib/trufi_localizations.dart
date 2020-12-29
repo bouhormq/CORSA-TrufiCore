@@ -644,7 +644,7 @@ class TrufiLocalizationDefault implements TrufiLocalization {
       );
 
   String aboutContent() => Intl.message(
-        "Hi there! I'm Salim Bouhorma Mouffak, a Computer Science student from the Polytechnic University of Catalonia that has developed with the help of Trufi Association this app to make it easy for people to use the transport system in Tetouan and the surrounding area.",
+        "Hi there! I'm Salim Bouhorma Mouffak, a Computer Science student from the Polytechnic University of Catalonia that has developed this app with the help of Trufi Association to make it easy for people to use the transport system in Tetouan and the surrounding areas.",
         name: "aboutContent",
         desc: "Text displayed on the about page",
       );
