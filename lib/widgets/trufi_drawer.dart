@@ -1,6 +1,5 @@
 import 'dart:io';
 
-import 'package:app_review/app_review.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -202,22 +201,6 @@ class TrufiDrawerState extends State<TrufiDrawer> {
           secondary: Icon(isOnline ? Icons.cloud : Icons.cloud_off),
         );
       },
-    );
-  }
-
-  Widget _buildAppReviewButton(BuildContext context) {
-    final localization = TrufiLocalizations.of(context).localization;
-    return Container(
-      child: ListTile(
-        leading: Icon(Icons.star, color: Colors.grey),
-        title: Text(
-          localization.menuAppReview(),
-          style: TextStyle(color: Theme.of(context).textTheme.body2.color),
-        ),
-        onTap: () async {
-          await AppReview.writeReview;
-        },
-      ),
     );
   }
 
