@@ -60,7 +60,7 @@ class TrufiConfigurationLanguage {
 }
 
 class TrufiConfigurationMap {
-  var mapTilerKey = "";
+  var mapTilerKey = "ugdtyAvKEOt7ClXjO5sM";
   var satelliteMapTypeEnabled = false;
   var terrainMapTypeEnabled = false;
   var defaultZoom = 12.0;
@@ -71,9 +71,9 @@ class TrufiConfigurationMap {
   var onlineMaxZoom = 19.0;
   var onlineZoom = 13.0;
   var chooseLocationZoom = 16.0;
-  var center = LatLng(5.574558, -0.214656);
-  var southWest = LatLng(5.510057, -0.328217);
-  var northEast = LatLng(5.726678, 0.071411);
+  var center = LatLng(35.572337, -5.373242);
+  var southWest = LatLng(35.308321, -5.536133);
+  var northEast = LatLng(35.844339, -5.087094);
 }
 
 class TrufiConfigurationUrl {

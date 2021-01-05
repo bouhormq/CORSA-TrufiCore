@@ -22,9 +22,9 @@ offlineMapTileLayerOptions() {
   );
 }
 
-tileHostingTileLayerOptions(String tilesEndpoint, { String tileProviderKey = "" }) {
-  var urlTemplate = tilesEndpoint + "/{z}/{x}/{y}@2x.png";
-  if (tileProviderKey != "") urlTemplate += "?key={key}";
+tileHostingTileLayerOptions(String tilesEndpoint, String tileProviderKey) {
+  var urlTemplate = tilesEndpoint + "/{z}/{x}/{y}.png";
+  if (tileProviderKey != "") urlTemplate += "?key=${tileProviderKey}";
 
   return TileLayerOptions(
     urlTemplate: urlTemplate,
