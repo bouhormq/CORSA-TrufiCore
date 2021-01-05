@@ -24,6 +24,7 @@ offlineMapTileLayerOptions() {
 
 tileHostingTileLayerOptions(String tilesEndpoint, { String tileProviderKey = "" }) {
   var urlTemplate = tilesEndpoint + "/{z}/{x}/{y}@2x.png";
+  if(tilesEndpoint == "https://api.maptiler.com/maps/hybrid") urlTemplate = tilesEndpoint + "/{z}/{x}/{y}.jpg";
   if (tileProviderKey != "") urlTemplate += "?key={key}";
 
   return TileLayerOptions(
